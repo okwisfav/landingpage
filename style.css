@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    background-image: url('img/Group\ 55.png');
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    overflow: hidden;
+}
+.color-bg{
+    background: #000000;
+    /* mix-blend-mode: multiply; */
+    background-size: 100%; 
+    height: 100%;
+     opacity: 0.66;
+     width: 68%;
+     color: #fff;
+}
+.hero-logo{
+    margin-top: 2.4rem;
+    margin-left: 5rem;
+}
+
+.tabs ul li{
+	width: 250px;
+	padding: 15px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	position: relative;
+    color: #fff;
+    text-align: right;
+    height: 88px;
+}
+.flex-one-hero{
+    margin-top: 11rem;
+    text-align: center;
+    margin-left: 17rem;
+}
+
+.tab-one{
+    display: flex;
+    justify-content: space-between;
+}
+.welcome h2{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-left: -9rem;
+}
+.hero-text{
+    display: flex;
+    margin-left: -3rem;
+    margin-top: 6px;
+}
+.text-hero{
+    color: #fff;
+    margin-top: 9px;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.tab_wrap{
+    width: 0%;
+    margin-top: -10px;
+    /* margin-left: 3rem; */
+}
+.tab_wrap img{
+    width: 29rem;
+    height: 41rem;
+}
+.click p{
+   position: relative;
+   left: 6rem;
+   top: -7rem;
+   color: #fff;
+   font-size: 2rem;
+   text-transform:capitalize;
+   font-weight: 900;
+   border: solid 2px;
+   padding: 1rem;
+   width: 17rem;
+}
+.heor-width{
+    width: 70%;
+}
+
+/*media  */
+@media only screen 
+  and (min-device-width: 280px) 
+  and (max-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    .tab_wrap img{
+        width: 20rem;
+        height: 41rem;
+    }
+    .click p {
+        position: relative;
+        left: 8px;
+        top: -7rem;
+        font-size: 12px;
+        width: 8rem
+    }
+    .hero-logo {
+        margin-top: 0.4rem;
+        margin-left: 1rem;
+    }
+    .flex-one-hero {
+        margin-top: 11rem;
+        text-align: center;
+        margin-left: 11rem;
+    }
+    .welcome h2{
+        font-size: 22px;
+    }
+    .text-hero{
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .hero-text{
+        margin-left: -7rem;
+        margin-top: 10px;
+        height: 73px;
+        margin-top: 0rem
+    }
+    .tabs ul li {
+        font-size: 9.5px;
+        margin-left: -3rem;
+        position: relative;
+        left: -9px;
+        height: 1rem;
+    }
+    .hero-text img{
+        width: 20px;
+        height: 20px;
+    }
+    .color-bg{
+        width: 56%;
+    }
+    .tab-one{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3rem;
+    }
+
+  }
+
+  @media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    .tab_wrap img{
+        width: 20rem;
+        height: 41rem;
+    }
+    .click p {
+        position: relative;
+        left: 1rem;
+        top: -7rem;
+        font-size: 14px;
+        width: 9rem;
+    }
+    .hero-logo {
+        margin-top: 0.4rem;
+        margin-left: 1rem;
+    }
+    .flex-one-hero {
+        margin-top: 11rem;
+        text-align: center;
+        margin-left: 11rem;
+    }
+    .welcome h2{
+        font-size: 22px;
+    }
+    .text-hero{
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .hero-text{
+        margin-left: -7rem;
+        margin-top: 10px;
+        height: 73px;
+        margin-top: 0rem
+    }
+    .tabs ul li {
+        font-size: 10.5px;
+        margin-left: -3rem;
+        position: relative;
+        left: -9px;
+        height: 1rem;
+    }
+    .hero-text img{
+        width: 20px;
+        height: 20px;
+    }
+    .color-bg{
+        width: 56%;
+    }
+    .tab-one{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3rem;
+    }
+
+  }
+
+  @media (min-width: 410px) and (max-width: 420px){
+    .tab_wrap img{
+        width: 20rem;
+        height: 41rem;
+    }
+    .click p {
+        position: relative;
+        left: 1.4rem;
+        top: -7rem;
+        font-size: 17px;
+        width: 10rem;
+    }
+    .hero-logo {
+        margin-top: 0.4rem;
+        margin-left: 1rem;
+    }
+    .flex-one-hero {
+        margin-top: 11rem;
+        text-align: center;
+        margin-left: 11rem;
+    }
+    .welcome h2{
+        font-size: 22px;
+    }
+    .text-hero{
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .hero-text{
+        margin-left: -7rem;
+        margin-top: 10px;
+        height: 73px;
+        margin-top: 0rem
+    }
+    .tabs ul li {
+        font-size: 10.5px;
+        margin-left: -3rem;
+        position: relative;
+        left: -9px;
+        height: 1rem;
+    }
+    .hero-text img{
+        width: 20px;
+        height: 20px;
+    }
+    .color-bg{
+        width: 56%;
+    }
+    .tab-one{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3rem;
+    }
+  }
+
+  @media (min-width: 425px) and (max-width: 428px){
+    .tab_wrap img{
+        width: 20rem;
+        height: 41rem;
+    }
+    .click p {
+        position: relative;
+        left: 1.4rem;
+        top: -7rem;
+        font-size: 17px;
+        width: 10rem;
+    }
+    .hero-logo {
+        margin-top: 0.4rem;
+        margin-left: 1rem;
+    }
+    .flex-one-hero {
+        margin-top: 11rem;
+        text-align: center;
+        margin-left: 11rem;
+    }
+    .welcome h2{
+        font-size: 22px;
+    }
+    .text-hero{
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .hero-text{
+        margin-left: -7rem;
+        margin-top: 10px;
+        height: 73px;
+        margin-top: 0rem
+    }
+    .tabs ul li {
+        font-size: 10.5px;
+        margin-left: -3rem;
+        position: relative;
+        left: -9px;
+        height: 1rem;
+    }
+    .hero-text img{
+        width: 20px;
+        height: 20px;
+    }
+    .color-bg{
+        width: 56%;
+    }
+    .tab-one{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3rem;
+    }
+  }
+
+  @media (min-width: 540px) and (max-width: 680px){
+    .tab_wrap img{
+        width: 20rem;
+        height: 41rem;
+    }
+    .click p {
+        position: relative;
+        left: 1.4rem;
+        top: -7rem;
+        font-size: 22px;
+        width: 12rem;
+    }
+    .hero-logo {
+        margin-top: 0.4rem;
+        margin-left: 1rem;
+    }
+    .flex-one-hero {
+        margin-top: 11rem;
+        text-align: center;
+        margin-left: 11rem;
+    }
+    .welcome h2{
+        font-size: 22px;
+    }
+    .text-hero{
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .hero-text{
+        margin-left: -8rem;
+        margin-top: 10px;
+        height: 73px;
+        margin-top: 0rem
+    }
+    .tabs ul li {
+        font-size: 10.5px;
+        margin-left: -3rem;
+        position: relative;
+        left: -4rem;
+    }
+    .hero-text img{
+        width: 40px;
+        height: 42px;
+    }
+    .color-bg{
+        width: 56%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 900px){
+    .tab_wrap img{
+        width: 20rem;
+        height: 41rem;
+    }
+    .click p {
+        position: relative;
+        left: 2rem;
+        top: -7rem
+    }
+    .hero-logo {
+        margin-top: 0.4rem;
+        margin-left: 3rem;
+    }
+    .flex-one-hero {
+        margin-top: 11rem;
+        text-align: center;
+        margin-left: 15rem;
+    }
+    .welcome h2{
+        font-size: 23px;
+    }
+    .text-hero{
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .hero-text{
+        margin-left: -8rem;
+        margin-top: 10px;
+        height: 73px;
+        margin-top: 0rem
+    }
+    .tabs ul li {
+        font-size: 10.5px;
+        margin-left: -3rem
+    }
+    .hero-text img{
+        width: 40px;
+        height: 42px;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1200px){
+    .tab_wrap img{
+        width: 27rem;
+        height: 41rem;
+    }
+    .click p {
+        position: relative;
+        left: 6rem;
+        top: -7rem
+    }
+    .hero-logo {
+        margin-top: 0.4rem;
+        margin-left: 3rem;
+    }
+    .flex-one-hero {
+        margin-top: 11rem;
+        text-align: center;
+        margin-left: 15rem;
+    }
+    .welcome h2{
+        font-size: 37px;
+    }
+    .text-hero{
+      font-size: 1.2rem;
+      margin-top: 2px;
+    }
+    .hero-text{
+        margin-left: -5rem;
+        margin-top: 10px;
+    }
+    .tabs ul li {
+        font-size: 12.5px;
+    }
+  }
+
+  @media (min-width: 1500px) and (max-width: 1600px){
+    .color-bg{
+        width: 65%;
+    }
+    .flex-one-hero{
+        margin-left: 22rem;
+    }
+    .welcome h2{
+        font-size: 77px;
+    }
+    .hero-text {
+        margin-left: 1rem;
+    }
+    .tab_wrap img {
+        width: 35rem;
+        height: 41rem;
+    }
+  }
+
+  @media (min-width: 1700px) and (max-width: 1799px){
+    .color-bg{
+        width: 70%;
+    }
+    .flex-one-hero{
+        margin-left: 22rem;
+    }
+    .welcome h2{
+        font-size: 77px;
+    }
+    .hero-text {
+        margin-left: 1rem;
+    }
+    .tab_wrap img {
+        width: 34rem;
+        height: 41rem;
+    }
+    .click p{
+        left: 15rem;
+    }
+  }
+
+  @media (min-width: 1800px) and (max-width: 1900px){
+    .color-bg{
+        width: 70%;
+    }
+    .flex-one-hero{
+        margin-left: 24rem;
+    }
+    .welcome h2{
+        font-size: 77px;
+    }
+    .hero-text {
+        margin-left: 1rem;
+    }
+    .hero-text img{
+        width: 4rem;
+    }
+    .text-hero {
+        color: #fff;
+        margin-top: 10px;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    .hero-logo{
+        width: 9rem;
+        height: 3rem;
+    }
+    .tab_wrap img {
+        width: 34rem;
+        height: 41rem;
+    }
+    .click p{
+        left: 15rem;
+    }
+  }
+
+  @media (min-width: 1900px) and (max-width: 2400px){
+    .color-bg{
+        width: 71%;
+    }
+    .flex-one-hero{
+        margin-left: 24rem;
+    }
+    .welcome h2{
+        font-size: 6rem;
+    }
+    .hero-text {
+        margin-left: 1rem;
+    }
+    .tab_wrap img {
+        width: 34rem;
+        height: 41rem;
+    }
+    .tab_wrap img {
+        width: 44rem;
+        height: 41rem;
+    }
+    .click p{
+        left: 25rem;
+    }
+  }
+
+  @media (min-width: 2560px){
+    .color-bg{
+        width: 79%;
+    }
+    .text-hero{
+     font-size: 5rem;
+    }
+    .flex-one-hero{
+        margin-left: 24rem;
+    }
+    .welcome h2{
+        font-size: 10rem;
+    }
+    .hero-text {
+        margin-left: 10rem;
+    }
+    .hero-text img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .tabs ul li {
+        padding: 15px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        position: relative;
+        color: #fff;
+        text-align: right;
+        height: 97px;
+        margin-right: 1rem;
+    }
+    .hero-logo{
+        width: 12rem;
+        height: 4rem;
+    }
+    .tab_wrap img {
+        width: 44rem;
+        height: 41rem;
+    }
+    .click p {
+        position: relative;
+        left: 25rem;
+    }
+  }
